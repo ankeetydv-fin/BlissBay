@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeftIcon } from '@heroicons/react/24/outline';
-import { getJuiceById, JuiceProduct } from '@/data/juices';
+import { getJuiceById, JuiceProduct, juices } from '@/data/juices';
 import { useCart } from '@/context/CartContext';
 
 // Fade in animation variants
@@ -15,6 +15,12 @@ const fadeIn = {
   animate: { opacity: 1, y: 0 },
   transition: { duration: 0.4 }
 };
+
+export async function generateStaticParams() {
+  return juices.map((juice) => ({
+    id: juice.id,
+  }));
+}
 
 export default function JuiceDetailPage() {
   const { id } = useParams();

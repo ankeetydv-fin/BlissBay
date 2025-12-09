@@ -4,9 +4,15 @@ import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { getJuiceById } from '@/data/juices';
+import { getJuiceById, juices } from '@/data/juices';
 import { useCart } from '@/context/CartContext';
 import { useState } from 'react';
+
+export async function generateStaticParams() {
+  return juices.map((juice) => ({
+    id: juice.id,
+  }));
+}
 
 export default function BlogPage() {
   const params = useParams();
