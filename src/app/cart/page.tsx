@@ -21,7 +21,7 @@ export default function CartPage() {
             >
               <h1 className="text-3xl font-bold text-gray-900">Your Cart is Empty</h1>
               <p className="text-lg text-gray-600">
-                Looks like you haven't added any juices to your cart yet.
+                Looks like you haven&apos;t added any juices to your cart yet.
               </p>
               <Link
                 href="/menu"
@@ -46,7 +46,7 @@ export default function CartPage() {
           className="space-y-8"
         >
           <h1 className="text-3xl font-bold text-gray-900">Shopping Cart</h1>
-          
+
           <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
             <div className="divide-y divide-gray-100">
               {items.map((item) => (

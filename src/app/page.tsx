@@ -44,11 +44,11 @@ export default function Home() {
 
           {/* Floating icons with connecting lines */}
           <motion.div
-            animate={{ 
+            animate={{
               y: [0, -10, 0],
               rotate: [0, 5, 0]
             }}
-            transition={{ 
+            transition={{
               duration: 3,
               repeat: Infinity,
               ease: "easeInOut"
@@ -59,11 +59,11 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-            animate={{ 
+            animate={{
               y: [0, 10, 0],
               rotate: [0, -5, 0]
             }}
-            transition={{ 
+            transition={{
               duration: 3,
               repeat: Infinity,
               ease: "easeInOut",
@@ -75,11 +75,11 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-            animate={{ 
+            animate={{
               y: [0, -8, 0],
               rotate: [0, 3, 0]
             }}
-            transition={{ 
+            transition={{
               duration: 3,
               repeat: Infinity,
               ease: "easeInOut",
@@ -91,11 +91,11 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-            animate={{ 
+            animate={{
               y: [0, 8, 0],
               rotate: [0, -3, 0]
             }}
-            transition={{ 
+            transition={{
               duration: 3,
               repeat: Infinity,
               ease: "easeInOut",
@@ -175,11 +175,11 @@ export default function Home() {
 
         {/* Glow balls - optimized with reduced blur and simpler animations */}
         <motion.div
-          animate={{ 
+          animate={{
             scale: [1, 1.1, 1],
             opacity: [0.2, 0.3, 0.2]
           }}
-          transition={{ 
+          transition={{
             duration: 3,
             repeat: Infinity,
             ease: "easeInOut"
@@ -187,11 +187,11 @@ export default function Home() {
           className="absolute top-[10%] left-[5%] w-24 h-24 bg-orange-300/20 rounded-full blur-2xl"
         />
         <motion.div
-          animate={{ 
+          animate={{
             scale: [1, 1.05, 1],
             opacity: [0.15, 0.25, 0.15]
           }}
-          transition={{ 
+          transition={{
             duration: 4,
             repeat: Infinity,
             ease: "easeInOut",
@@ -200,11 +200,11 @@ export default function Home() {
           className="absolute top-[30%] right-[10%] w-32 h-32 bg-amber-300/20 rounded-full blur-2xl"
         />
         <motion.div
-          animate={{ 
+          animate={{
             scale: [1, 1.1, 1],
             opacity: [0.2, 0.3, 0.2]
           }}
-          transition={{ 
+          transition={{
             duration: 3,
             repeat: Infinity,
             ease: "easeInOut",
@@ -213,11 +213,11 @@ export default function Home() {
           className="absolute bottom-[20%] left-[15%] w-28 h-28 bg-orange-400/20 rounded-full blur-2xl"
         />
         <motion.div
-          animate={{ 
+          animate={{
             scale: [1, 1.05, 1],
             opacity: [0.15, 0.25, 0.15]
           }}
-          transition={{ 
+          transition={{
             duration: 4,
             repeat: Infinity,
             ease: "easeInOut",
@@ -262,13 +262,13 @@ export default function Home() {
       </div>
 
       {/* Optimize initial page load animations */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
         className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-black/5 to-transparent"
       />
-      
+
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-orange-50 via-yellow-100 to-orange-50">
         <div className="absolute inset-0">
@@ -276,7 +276,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/10 via-amber-300/20 to-orange-200/10" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(250,204,21,0.2)_0%,transparent_50%)]" />
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-orange-50/90" />
-          
+
           {/* Animated background shapes */}
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-yellow-300/30 rounded-full blur-3xl animate-blob"></div>
@@ -285,13 +285,13 @@ export default function Home() {
           </div>
         </div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
           className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-black/5 to-transparent"
         />
-        
+
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -304,7 +304,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500/0 via-white/20 to-orange-500/0 transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500" />
             </span>
           </motion.div>
-          
+
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -313,14 +313,14 @@ export default function Home() {
           >
             Fresh & Natural Juices
           </motion.h1>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl md:text-2xl mb-8 text-gray-800 font-semibold"
           >
-            Experience nature's best flavors delivered to your doorstep
+            Experience nature&apos;s best flavors delivered to your doorstep
           </motion.p>
 
           <motion.div
@@ -340,8 +340,8 @@ export default function Home() {
                       className="w-6 h-6"
                     >
                       <svg className="w-full h-full text-orange-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" strokeDasharray="4 4"/>
-                        <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" strokeDasharray="4 4" />
+                        <circle cx="12" cy="12" r="3" fill="currentColor" />
                       </svg>
                     </motion.div>
                     <motion.div
@@ -363,13 +363,13 @@ export default function Home() {
                     Minutes
                   </span>
                   <svg className="w-5 h-5 text-orange-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg className="w-5 h-5 text-orange-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9 12L11 14L15 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" strokeWidth="2"/>
+                    <path d="M9 12L11 14L15 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" strokeWidth="2" />
                   </svg>
                   <motion.div
                     animate={{ scale: [1, 1.2, 1] }}
@@ -380,7 +380,7 @@ export default function Home() {
               </div>
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -422,11 +422,11 @@ export default function Home() {
           >
             <div className="relative w-full h-full">
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, -8, 0],
                   rotate: [0, 3, 0]
                 }}
-                transition={{ 
+                transition={{
                   duration: 2,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -434,11 +434,11 @@ export default function Home() {
                 className="absolute inset-0 bg-gradient-to-br from-orange-300/20 to-amber-300/20 rounded-full blur-xl"
               />
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, -8, 0],
                   rotate: [0, 3, 0]
                 }}
-                transition={{ 
+                transition={{
                   duration: 2,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -458,11 +458,11 @@ export default function Home() {
           >
             <div className="relative w-full h-full">
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, 8, 0],
                   rotate: [0, -3, 0]
                 }}
-                transition={{ 
+                transition={{
                   duration: 2,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -470,11 +470,11 @@ export default function Home() {
                 className="absolute inset-0 bg-gradient-to-br from-green-300/20 to-emerald-300/20 rounded-full blur-xl"
               />
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, 8, 0],
                   rotate: [0, -3, 0]
                 }}
-                transition={{ 
+                transition={{
                   duration: 2,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -494,11 +494,11 @@ export default function Home() {
           >
             <div className="relative w-full h-full">
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, -10, 0],
                   rotate: [0, 15, 0]
                 }}
-                transition={{ 
+                transition={{
                   duration: 2.2,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -506,11 +506,11 @@ export default function Home() {
                 className="absolute inset-0 bg-gradient-to-br from-red-300/20 to-pink-300/20 rounded-full blur-xl"
               />
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, -10, 0],
                   rotate: [0, 15, 0]
                 }}
-                transition={{ 
+                transition={{
                   duration: 2.2,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -530,11 +530,11 @@ export default function Home() {
           >
             <div className="relative w-full h-full">
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, 12, 0],
                   rotate: [0, -8, 0]
                 }}
-                transition={{ 
+                transition={{
                   duration: 4,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -542,11 +542,11 @@ export default function Home() {
                 className="absolute inset-0 bg-gradient-to-br from-purple-300/20 to-indigo-300/20 rounded-full blur-xl"
               />
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, 12, 0],
                   rotate: [0, -8, 0]
                 }}
-                transition={{ 
+                transition={{
                   duration: 4,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -558,7 +558,7 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
@@ -624,7 +624,7 @@ export default function Home() {
                       className="object-cover transition-all duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" />
-                    
+
                     {/* Decorative elements */}
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
                       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-400/50 to-transparent transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
@@ -639,7 +639,7 @@ export default function Home() {
 
                     {/* Hover overlay with content */}
                     <div className="absolute inset-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-all duration-500 bg-gradient-to-t from-white/95 via-white/50 to-transparent backdrop-blur-[2px]">
-                      <motion.span 
+                      <motion.span
                         initial={{ y: 20, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.3 }}
@@ -676,7 +676,7 @@ export default function Home() {
               </motion.div>
             ))}
           </div>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -684,14 +684,14 @@ export default function Home() {
             viewport={{ once: true }}
             className="flex justify-center mt-16"
           >
-            <Link 
-              href="/menu" 
+            <Link
+              href="/menu"
               className="group relative overflow-hidden px-5 py-2.5 rounded-full bg-white/50 hover:bg-white/80 backdrop-blur-sm border border-orange-200 transition-all duration-300"
             >
               <span className="relative z-10 flex items-center gap-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-amber-600 font-medium text-sm group-hover:gap-3 transition-all duration-300">
                 View All Juices
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" className="text-orange-600">
-                  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                 </svg>
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-orange-400/10 to-amber-400/10 opacity-0 group-hover:opacity-100 transition-all duration-500" />
@@ -714,7 +714,7 @@ export default function Home() {
             </defs>
           </svg>
         </div>
-        
+
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -794,7 +794,7 @@ export default function Home() {
               </motion.div>
             ))}
           </div>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -808,19 +808,19 @@ export default function Home() {
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-400/30 to-transparent transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
                 <div className="absolute bottom-0 right-0 w-full h-1 bg-gradient-to-l from-orange-400/30 to-transparent transform origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
               </div>
-              
+
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-4 items-center relative z-10">
                 <div className="lg:col-span-2">
-                  <motion.h3 
+                  <motion.h3
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3 }}
                     viewport={{ once: true }}
                     className="text-2xl lg:text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-amber-600"
                   >
-                    Ready to experience nature's best flavors?
+                    Ready to experience nature&apos;s best flavors?
                   </motion.h3>
-                  <motion.p 
+                  <motion.p
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3, delay: 0.1 }}
@@ -830,7 +830,7 @@ export default function Home() {
                     Start your journey to better health with our premium juice selection delivered to your door.
                   </motion.p>
                 </div>
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.3, delay: 0.2 }}
@@ -860,7 +860,7 @@ export default function Home() {
             <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-amber-200/20 rounded-full blur-3xl animate-blob animation-delay-2000"></div>
           </div>
         </div>
-        
+
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -943,7 +943,7 @@ export default function Home() {
                   {/* Decorative elements */}
                   <div className="absolute -inset-4 bg-gradient-to-r from-orange-400/20 to-amber-400/20 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute -inset-2 bg-gradient-to-br from-orange-400/10 to-transparent rounded-full blur-xl"></div>
-                  
+
                   <Image
                     src="/phone-mockup.png"
                     alt="Bliss Bay Mobile App"
@@ -954,14 +954,14 @@ export default function Home() {
                     quality={85}
                     className="w-full h-auto drop-shadow-2xl relative z-10"
                   />
-                  
+
                   {/* Floating elements */}
                   <motion.div
-                    animate={{ 
+                    animate={{
                       y: [0, -10, 0],
                       rotate: [0, 5, 0]
                     }}
-                    transition={{ 
+                    transition={{
                       duration: 3,
                       repeat: Infinity,
                       ease: "easeInOut"
@@ -969,11 +969,11 @@ export default function Home() {
                     className="absolute -top-4 -right-4 w-8 h-8 bg-orange-400/20 rounded-full blur-sm"
                   />
                   <motion.div
-                    animate={{ 
+                    animate={{
                       y: [0, 10, 0],
                       rotate: [0, -5, 0]
                     }}
-                    transition={{ 
+                    transition={{
                       duration: 3,
                       repeat: Infinity,
                       ease: "easeInOut",

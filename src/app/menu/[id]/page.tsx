@@ -54,7 +54,7 @@ export default function JuiceDetailPage() {
       <div className="pt-28 pb-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-3xl font-bold mb-4">Juice Not Found</h1>
-          <p className="mb-8">The juice you're looking for doesn't exist or has been removed.</p>
+          <p className="mb-8">The juice you&apos;re looking for doesn&apos;t exist or has been removed.</p>
           <Link href="/menu" className="gradient-button">
             Back to Menu
           </Link>
@@ -72,8 +72,8 @@ export default function JuiceDetailPage() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
         >
-          <Link 
-            href="/menu" 
+          <Link
+            href="/menu"
             className="group inline-flex items-center text-gray-600 hover:text-orange-500 mb-8 transition-colors"
           >
             <ArrowLeftIcon className="h-5 w-5 mr-2 transition-transform duration-300 group-hover:-translate-x-1" />
@@ -119,7 +119,7 @@ export default function JuiceDetailPage() {
             </div>
 
             <p className="text-gray-700 text-lg leading-relaxed">{juice.fullDescription}</p>
-            
+
             <motion.button
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -241,7 +241,7 @@ export default function JuiceDetailPage() {
               </motion.div>
             ))}
           </div>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

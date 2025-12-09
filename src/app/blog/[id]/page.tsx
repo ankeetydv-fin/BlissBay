@@ -33,7 +33,7 @@ export default function BlogPage() {
             className="space-y-6"
           >
             <h1 className="text-3xl font-bold text-gray-900">Juice Not Found</h1>
-            <p className="text-xl text-gray-600">The juice you're looking for doesn't exist.</p>
+            <p className="text-xl text-gray-600">The juice you&apos;re looking for doesn&apos;t exist.</p>
             <Link
               href="/"
               className="inline-block px-6 py-3 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white rounded-xl shadow-lg hover:shadow-orange-500/25 transition-all duration-300"
@@ -205,7 +205,7 @@ export default function BlogPage() {
                 </motion.div>
               ))}
             </div>
-            
+
             <div>
               <h3 className="font-bold mb-4 text-gray-900">Vitamins & Minerals</h3>
               <div className="flex flex-wrap gap-2">

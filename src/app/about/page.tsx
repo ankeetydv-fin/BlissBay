@@ -79,17 +79,17 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-bold mb-6">Our Journey</h2>
             <p className="text-gray-600 mb-4">
-              Bliss Bay was founded with a simple mission: to make fresh, natural juices accessible to everyone. 
-              What started as a small juice bar in Mumbai has grown into a nationwide delivery service, 
+              Bliss Bay was founded with a simple mission: to make fresh, natural juices accessible to everyone.
+              What started as a small juice bar in Mumbai has grown into a nationwide delivery service,
               bringing the goodness of fresh-pressed juices to thousands of customers.
             </p>
             <p className="text-gray-600 mb-4">
-              We believe in the power of natural ingredients and their ability to transform lives. 
-              Our commitment to quality and freshness has made us the preferred choice for health-conscious 
+              We believe in the power of natural ingredients and their ability to transform lives.
+              Our commitment to quality and freshness has made us the preferred choice for health-conscious
               individuals and families across India.
             </p>
             <p className="text-gray-600">
-              Today, we continue to innovate and expand our offerings while staying true to our core values 
+              Today, we continue to innovate and expand our offerings while staying true to our core values
               of quality, sustainability, and customer satisfaction.
             </p>
           </motion.div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Join Our Team</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We're always looking for passionate individuals to join our mission
+            We&apos;re always looking for passionate individuals to join our mission
           </p>
           <button className="bg-orange-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600 transition-colors">
             View Open Positions
